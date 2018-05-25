@@ -1,0 +1,11 @@
+# src
+dist/*
+!dist/.keep
+
+# Terraform
+.terraform
+*.tfstate
+*.tfstate.backup
+
+# direnv
+.envrc
